@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="img/LOGO-UNAB.png" alt="Congreso Innovación" style="width: 100px;">
@@ -24,12 +24,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-house-user"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portada.html">
+                            <i class="fas fa-image"></i> Portada
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="introduccion.html">
+                            <i class="fas fa-info-circle"></i> Introducción
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-chalkboard-teacher"></i> Ponencias
+                            <i class="fas fa-chalkboard"></i> Ponencias
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="ponencia1.html"><i class="fas fa-file-alt"></i> Ponencia
@@ -45,7 +57,19 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="experiencia.html"><i class="fas fa-user-tie"></i> Experiencia</a>
+                        <a class="nav-link" href="experiencia.html">
+                            <i class="fas fa-user-check"></i> Experiencia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conclusion.html">
+                            <i class="fas fa-lightbulb"></i> Conclusión
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="anexos.html">
+                            <i class="fas fa-paperclip"></i> Anexos
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -53,23 +77,24 @@
     </nav>
 
     <section class="container py-5">
-        <h2 class="text-white">Ponencia:</h2>
-        <h2 class="text-white">Anatomía de un ataque ransomware y el uso de la IA para detectar anomalías <i class="fas fa-virus"></i></h2>
+        <h2 class="text-white"><i class="fas fa-virus"></i> Ponencia: Anatomía de un ataque ransomware y el uso de IA
+            para detectar anomalías</h2>
         <p><i class="fas fa-user"></i> Ponente: Ing. Gabriel López</p>
 
-        <div class="card mt-4 bg-dark text-white">
-            <div class="card-header">
-                Información Adicional <i class="fas fa-info-circle"></i>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Temas Cubiertos</h5>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item bg-dark text-white">Funcionamiento de un ataque ransomware</li>
-                    <li class="list-group-item bg-dark text-white">Herramientas de IA para detectar anomalías</li>
-                    <li class="list-group-item bg-dark text-white">Casos reales y cómo prevenir ataques</li>
-                </ul>
-            </div>
-        </div>
+        <h3><i class="fas fa-book-open"></i> Apuntes</h3>
+        <p>Un ataque ransomware es un tipo de malware que cifra los archivos de un usuario, exigiendo un rescate para su
+            recuperación. Comprender su anatomía es crucial para defenderse adecuadamente. La ponencia analiza las fases
+            de un ataque y los métodos más comunes utilizados por los ciberdelincuentes.</p>
+
+        <h3><i class="fas fa-star"></i> Lo más sobresaliente</h3>
+        <p>El uso de la inteligencia artificial se ha vuelto fundamental en la detección de anomalías. Algoritmos
+            avanzados son capaces de identificar patrones de comportamiento inusuales, ayudando a prevenir ataques antes
+            de que ocurran.</p>
+
+        <h3><i class="fas fa-graduation-cap"></i> Contribución a la preparación académica</h3>
+        <p>Esta ponencia me ha proporcionado una perspectiva más clara sobre la ciberseguridad y el papel de la
+            inteligencia artificial en la protección de datos, conocimientos que considero esenciales para mi futuro
+            profesional en el campo de la tecnología de la información.</p>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

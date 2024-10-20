@@ -4,14 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ponencia 2 - Inteligencia Artificial y Computación Cuántica</title>
+    <title>Portada - IX Congreso Internacional de Tecnología e Innovación</title>
     <link rel="icon" href="img/web.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-image: url('img/Portada.jpg'); /* Cambia esta ruta */
+            background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+            background-position: center; /* Centra la imagen de fondo */
+            color: white; /* Cambia el color del texto a blanco para que sea visible sobre el fondo */
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente para mejor legibilidad */
+            padding: 20px; /* Espaciado interno */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+    </style>
 </head>
 
-<body class="bg-dark text-white">
+<body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -24,22 +38,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" aria-current="page" href="index.html">
                             <i class="fas fa-house-user"></i> Inicio
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portada.html">
+                        <a class="nav-link active" aria-current="page" href="portada.html">
                             <i class="fas fa-image"></i> Portada
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="introduccion.html">
+                        <a class="nav-link" aria-current="page" href="introduccion.html">
                             <i class="fas fa-info-circle"></i> Introducción
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-chalkboard"></i> Ponencias
                         </a>
@@ -71,19 +85,18 @@
         </div>
     </nav>
 
-    <section class="container py-5">
-        <h2 class="text-white"><i class="fas fa-brain"></i> Ponencia: Aplicación de la Inteligencia Artificial con Computación Cuántica</h2>
-        <p><i class="fas fa-user"></i> Ponente: Ing. Fabricio Echeverría</p>
-
-        <h3><i class="fas fa-book-open"></i> Apuntes</h3>
-        <p>La combinación de inteligencia artificial y computación cuántica promete revolucionar el análisis de datos y la solución de problemas complejos. A través de algoritmos avanzados, se pueden lograr resultados que antes eran imposibles.</p>
-
-        <h3><i class="fas fa-star"></i> Lo más sobresaliente</h3>
-        <p>La fusión de estas tecnologías permite el desarrollo de modelos predictivos más precisos y la optimización de recursos en áreas como la medicina, la logística y la investigación científica.</p>
-
-        <h3><i class="fas fa-graduation-cap"></i> Contribución a la preparación académica</h3>
-        <p>Esta ponencia amplió mi comprensión sobre las intersecciones entre la inteligencia artificial y la computación cuántica, preparando el camino para futuras investigaciones y aplicaciones en el campo tecnológico.</p>
-    </section>
+    <div class="container text-center mt-5">
+        <img src="img/LOGO UNAB.png" alt="Logo de la Universidad" class="img-fluid mb-4" style="width: 200px;">
+        <h1 class="mb-4">UNIVERSIDAD DR. ANDRÉS BELLO</h1>
+        <h2>Sede: San Miguel</h2>
+        <h3 class="my-4">Facultad: Tecnología e Innovación</h3>
+        <h4 class="my-4">IX Congreso Internacional de Tecnología e Innovación</h4>
+    
+        <div class="mt-5">
+            <p><strong>Alumno:</strong> Jaime Fernando Berrios Ortiz</p>
+            <p><strong>Fecha del Congreso:</strong> Sábado, 12 de octubre de 2024</p>
+        </div>
+    </div>    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
